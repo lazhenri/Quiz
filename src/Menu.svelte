@@ -11,8 +11,8 @@
 	QUIZ
 </h1>
 
-<div class='menu' on:click={() => trocarEstadoDoJogo('play')}>
-	PLAY
+<div class='menu' on:click={() => trocarEstadoDoJogo('jogar')}>
+	JOGAR
 </div>
 
 <div class='menu' on:click={() => trocarEstadoDoJogo('sobre')}>

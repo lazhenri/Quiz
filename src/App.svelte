@@ -17,7 +17,7 @@
 	<!-- notem como cada componente/módulo que crianos no svelte vira um tag -->
 	<Menu/>
 {:else if $estado === 'sobre'}
-	<SOBRE/>
-{:else if $estado === 'play'}
-	<PLAY/>
+	<Sobre/>
+{:else if $estado === 'jogar'}
+	<Jogo/>
 {/if}

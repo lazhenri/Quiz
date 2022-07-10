@@ -3,5 +3,5 @@
 </script>
 
 <div class='menu' on:click={() => trocarEstadoDoJogo('menu')}>
-	SAIR
+	Voltar ao menu
 </div>
